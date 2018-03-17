@@ -5,6 +5,14 @@
   "main": "./dist/index.js",
   "author": "Christian Blos",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/christianblos/dependency-rules-webpack-plugin"
+  },
+  "homepage": "https://github.com/christianblos/dependency-rules-webpack-plugin",
+  "files": [
+    "dist/"
+  ],
   "scripts": {
     "prepublishOnly": "tsc -p ./ --outDir dist/",
     "runExample": "webpack --config example/webpack.config.js"
